@@ -4,7 +4,7 @@ from sklearn.ensemble import RandomForestClassifier
 from numpy import genfromtxt, savetxt
 
 # DIR = '/home/elder/projetos/kaggle/digit/'
-DIR = '/home/somar33/github/kaggle/'
+DIR = '/home/projects/github/kaggle/'
 dados = genfromtxt(open(DIR+'train.csv', 'r'), delimiter=',')[1:]
 
 labels = [i[0] for i in dados]
